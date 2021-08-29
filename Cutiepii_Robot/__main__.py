@@ -82,10 +82,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-CUTIEPII_IMG = "https://telegra.ph/file/57d1e105345723fea0edd.png"
+CUTIEPII_IMG = "https://telegra.ph/file/511b2c46d3a0000f5627e.jpg"
     
 PM_START_TEXT = """
-────「 [Cutiepii Robot](https://telegra.ph/file/6db0ffa5904f5b7e286af.jpg) 」────
+────「 [Rias Gremory Robot](https://telegra.ph/file/511b2c46d3a0000f5627e.jpg) 」────
 *Hola! {},*
 *I am an Anime themed advance group management bot with a lot of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -96,6 +96,7 @@ PM_START_TEXT = """
 """
 
 GROUP_START_TEXT = """
+────「 [Rias Gremory Robot](https://telegra.ph/file/511b2c46d3a0000f5627e.jpg) 」────
 I'm awake already!
 Haven't slept since: {}
 """
@@ -103,21 +104,20 @@ Haven't slept since: {}
 buttons = [
     [
                         InlineKeyboardButton(
-                            text="Add Cutiepii To Your Group",
-                            url="t.me/Cutiepii_Robot?startgroup=true")
+                            text="Add Me To Your Group",
+                            url="t.me/Rias_Gremory_Robot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[► Music ◄]", url="http://t.me/Group_Music_Probot?startgroup=true"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="❔ Chit Chat",
-                             url="https://t.me/HindiKDrama"),
+                             url="https://t.me/PokemonFanGroup"),
                        InlineKeyboardButton(
-                             text="📢 Updates",
-                             url="https://t.me/Black_Knights_Union")
+                             text="📢 Support Group",
+                             url="https://t.me/Rias_Gremory_Support")
                      ], 
     ]
 
@@ -126,7 +126,6 @@ HELP_STRINGS = """
 *Main* commands available:
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
- ➛ /donate: information on how to donate!
  ➛ /settings:
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings.
