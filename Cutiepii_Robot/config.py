@@ -33,7 +33,7 @@ class Config:
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
-    URL = None
+    URL = "https://telegra.ph/file/7b36a179a43a196d90550.jpg"
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
